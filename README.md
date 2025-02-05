@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using the catch-all route ('*') in React Router v6. The problem arises when the NotFound component, intended to handle invalid routes, fails to render.  The solution involves a careful review of route order and potentially using a nested route structure if you have other wildcard paths.
